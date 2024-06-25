@@ -25,10 +25,11 @@ jobs:
 
       - name: Build step
         run: "deno task build"
+        working-directory: new-fresh-project
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "tania-ts-fresh-project"
           entrypoint: "main.ts"
-          root: "."
+          root: "new-fresh-project"
