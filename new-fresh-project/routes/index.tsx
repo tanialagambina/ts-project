@@ -13,12 +13,23 @@ export default function Home() {
           height="128"
           alt="the Fresh logo: a sliced lemon dripping with juice"
         />
-        <h1 class="text-4xl font-bold">Welcome to My Shiny New Website hmm</h1>
+        <h1 class="text-4xl font-bold">Welcome to my website</h1>
         <p class="my-4">
           Try updating this message in the
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
         <Counter count={count} />
+        <form action="/search" method="GET" class="mt-8 w-full max-w-md">
+          <input
+            type="text"
+            name="q"
+            placeholder="Search..."
+            class="p-2 border border-gray-300 rounded w-full"
+          />
+          <button type="submit" class="mt-2 p-2 bg-blue-500 text-white rounded">
+            Search
+          </button>
+        </form>
       </div>
     </div>
   );
