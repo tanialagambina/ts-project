@@ -11,7 +11,11 @@ import * as $api_random_uuid from "./routes/api/random-uuid.ts";
 import * as $countdown from "./routes/countdown.tsx";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
+import * as $label_1 from "./routes/label_1.tsx";
+import * as $label_2 from "./routes/label_2.tsx";
+import * as $label_3 from "./routes/label_3.tsx";
 import * as $search from "./routes/search.tsx";
+import * as $sign_out from "./routes/sign_out.tsx";
 import * as $Countdown from "./islands/Countdown.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import { type Manifest } from "$fresh/server.ts";
@@ -27,7 +31,11 @@ const manifest = {
     "./routes/countdown.tsx": $countdown,
     "./routes/greet/[name].tsx": $greet_name_,
     "./routes/index.tsx": $index,
+    "./routes/label_1.tsx": $label_1,
+    "./routes/label_2.tsx": $label_2,
+    "./routes/label_3.tsx": $label_3,
     "./routes/search.tsx": $search,
+    "./routes/sign_out.tsx": $sign_out,
   },
   islands: {
     "./islands/Countdown.tsx": $Countdown,

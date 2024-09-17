@@ -86,7 +86,7 @@ export default function Layout({ Component, state }: PageProps) {
                   >
                     <li>
                       <a
-                        href="#"
+                        href="label_1"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
                         Label 1
@@ -94,7 +94,7 @@ export default function Layout({ Component, state }: PageProps) {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="label_2"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
                         Label 2
@@ -102,7 +102,7 @@ export default function Layout({ Component, state }: PageProps) {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="label_3"
                         class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
                         Label 3
@@ -111,7 +111,7 @@ export default function Layout({ Component, state }: PageProps) {
                   </ul>
                   <div class="py-1">
                     <a
-                      href="#"
+                      href="sign_out"
                       class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                     >
                       Sign out
