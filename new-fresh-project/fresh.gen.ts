@@ -15,6 +15,7 @@ import * as $label_1 from "./routes/label_1.tsx";
 import * as $label_2 from "./routes/label_2.tsx";
 import * as $label_3 from "./routes/label_3.tsx";
 import * as $search from "./routes/search.tsx";
+import * as $services from "./routes/services.tsx";
 import * as $sign_out from "./routes/sign_out.tsx";
 import * as $Countdown from "./islands/Countdown.tsx";
 import * as $Counter from "./islands/Counter.tsx";
@@ -35,6 +36,7 @@ const manifest = {
     "./routes/label_2.tsx": $label_2,
     "./routes/label_3.tsx": $label_3,
     "./routes/search.tsx": $search,
+    "./routes/services.tsx": $services,
     "./routes/sign_out.tsx": $sign_out,
   },
   islands: {
