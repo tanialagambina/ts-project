@@ -6,11 +6,6 @@ export default function Layout({ Component, state }: PageProps) {
   return (
     <div class="layout">
       <NavBar />
-      <NavBar />
-      <NavBar />
-      <NavBar />
-      <NavBar />
-      <NavBar />
       <Component />
     </div>
   );
