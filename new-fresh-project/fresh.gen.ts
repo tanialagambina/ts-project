@@ -14,11 +14,13 @@ import * as $index from "./routes/index.tsx";
 import * as $label_1 from "./routes/label_1.tsx";
 import * as $label_2 from "./routes/label_2.tsx";
 import * as $label_3 from "./routes/label_3.tsx";
+import * as $pokemon_api from "./routes/pokemon_api.tsx";
 import * as $search from "./routes/search.tsx";
 import * as $services from "./routes/services.tsx";
 import * as $sign_out from "./routes/sign_out.tsx";
 import * as $Countdown from "./islands/Countdown.tsx";
 import * as $Counter from "./islands/Counter.tsx";
+import * as $Pokemon from "./islands/Pokemon.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -35,6 +37,7 @@ const manifest = {
     "./routes/label_1.tsx": $label_1,
     "./routes/label_2.tsx": $label_2,
     "./routes/label_3.tsx": $label_3,
+    "./routes/pokemon_api.tsx": $pokemon_api,
     "./routes/search.tsx": $search,
     "./routes/services.tsx": $services,
     "./routes/sign_out.tsx": $sign_out,
@@ -42,6 +45,7 @@ const manifest = {
   islands: {
     "./islands/Countdown.tsx": $Countdown,
     "./islands/Counter.tsx": $Counter,
+    "./islands/Pokemon.tsx": $Pokemon,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
